@@ -1,0 +1,9 @@
+Sort(sort.Reverse(sort.IntSlice(arr[1])))
+   for numboxes,unit :=range boxTypes{
+     if (truckSize <=numBoxes){
+      total_units+=truckSize*unit
+     else 
+    total_units+=numboxes*unit
+   truckSize-=numBoxes
+
+   return total_units
